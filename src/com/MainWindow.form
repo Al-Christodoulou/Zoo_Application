@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.MainWindow">
+  <grid id="27dc6" binding="welcometext" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="411"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <font size="48"/>
+      <name value="welcometext"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="none" title="Καλωσορήσατε!" title-justification="2">
+      <font name="Consolas" size="48"/>
+    </border>
+    <children>
+      <component id="42374" class="javax.swing.JButton" binding="previewAnimals">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Προβολή όλων των διαθέσιμων ζώων"/>
+        </properties>
+      </component>
+      <vspacer id="35de6">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="59742" class="javax.swing.JButton" binding="addAnimal">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Προσθήκη νέου ζώου"/>
+        </properties>
+      </component>
+      <component id="eb6c0" class="javax.swing.JButton" binding="searchAnimalByName">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Αναζήτηση ζώου βάσει ονόματος"/>
+        </properties>
+      </component>
+      <component id="e7b3b" class="javax.swing.JButton" binding="searchAnimalByCode">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Αναζήτηση ζώου βάσει κωδικού"/>
+        </properties>
+      </component>
+      <component id="179fe" class="javax.swing.JButton" binding="modifyAnimal">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Επεξεργασία ζώου βάσει κωδικού"/>
+        </properties>
+      </component>
+      <component id="f60c" class="javax.swing.JButton" binding="deleteAnimal">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Διαγραφή ζώου βάσει κωδικού"/>
+        </properties>
+      </component>
+      <component id="ada57" class="javax.swing.JButton" binding="exit">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-83535"/>
+          <enabled value="true"/>
+          <text value="Έξοδος από την εφαρμογή"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,11 @@
+Bat,Mammal,0.1f,16f
+Giraffe,Mammal,1000f,23f
+Horse,Mammal,680f,27f
+Monkey,Mammal,10.0f,20.0f
+Rabbit,Mammal,3.5f,9.5f
+Magpie,Aves,0.22f,3.0f
+Hippopotamus,Mammal,1500f,45f
+Crocodile,Sauropsida,800f,35f
+Ostrich,Aves,118f,35f
+Gorilla,Mammal,275f,37f
+Panda,Mammal,107f,16.5f

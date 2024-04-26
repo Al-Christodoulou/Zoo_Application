@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.AddAnimalWindow">
+  <grid id="27dc6" binding="title" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="590"/>
+    </constraints>
+    <properties>
+      <name value=""/>
+    </properties>
+    <border type="none" title="Επιλέξτε ένα ζώο:" title-justification="2">
+      <font size="28"/>
+    </border>
+    <children>
+      <component id="62901" class="javax.swing.JButton" binding="addBat">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Νυχτερίδα"/>
+        </properties>
+      </component>
+      <vspacer id="83d8e">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="30"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="7d99b" class="javax.swing.JButton" binding="addGiraffe">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Καμηλοπάρδαλη"/>
+        </properties>
+      </component>
+      <component id="d3d32" class="javax.swing.JButton" binding="addHorse">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Άλογο"/>
+        </properties>
+      </component>
+      <component id="4c5f0" class="javax.swing.JButton" binding="addMonkey">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Μαϊμού"/>
+        </properties>
+      </component>
+      <component id="ad8f0" class="javax.swing.JButton" binding="addRabbit">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Κουνέλι"/>
+        </properties>
+      </component>
+      <component id="383ff" class="javax.swing.JButton" binding="exit">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-20047"/>
+          <text value="Έξοδος"/>
+        </properties>
+      </component>
+      <component id="c60d6" class="javax.swing.JButton" binding="addMagpie">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Καρακάξα"/>
+        </properties>
+      </component>
+      <component id="1b49c" class="javax.swing.JButton" binding="addHippopotamus">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ιπποπόταμος"/>
+        </properties>
+      </component>
+      <component id="34f09" class="javax.swing.JButton" binding="addCrocodile">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Κροκόδειλος"/>
+        </properties>
+      </component>
+      <component id="807de" class="javax.swing.JButton" binding="addOstrich">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Στρουθοκάμηλος"/>
+        </properties>
+      </component>
+      <component id="f6d0" class="javax.swing.JButton" binding="addGorilla">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Γορίλας"/>
+        </properties>
+      </component>
+      <component id="8a68d" class="javax.swing.JButton" binding="addPanda">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Πάντα"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
